@@ -10,6 +10,8 @@ NumPy 1.15.3
 Pillow 5.3.0
 ```
 
+## Results
+
 Solved in 800 episodes:
 
 ![Alt Text](https://github.com/nikhilbarhate99/TD3-BipedalWalker-v2-PyTorch/blob/master/gif/GIF-ONE.gif)
