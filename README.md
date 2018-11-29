@@ -3,14 +3,12 @@
 PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) (TD3) for the BipedalWalker-v2 environment of OpenAI gym.
 
 ## Dependencies
-
-- `Python 3.6`
-
-- `PyTorch 0.4.1`
-
-- `NumPy 1.15.3`
-
-- `Pillow 5.3.0`
+```
+Python 3.6
+PyTorch 0.4.1
+NumPy 1.15.3
+Pillow 5.3.0
+```
 
 Solved in 800 episodes:
 
