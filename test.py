@@ -1,5 +1,6 @@
 import gym
 from TD3 import TD3
+from PIL import Image
 
 def test():
     env_name = "BipedalWalker-v2"
@@ -7,6 +8,7 @@ def test():
     n_episodes = 3
     max_timesteps = 2000
     render = True
+    save_gif = True
     
     filename = "TD3_{}_{}".format(env_name, random_seed)
     filename += '_solved'
@@ -30,8 +32,11 @@ def test():
             ep_reward += reward
             if render:
                 env.render()
+                if save_gif:
+                     img = env.render(mode = 'rgb_array')
+                     img = Image.fromarray(img)
+                     img.save('./gif/{}.jpg'.format(t))
             if done:
-                print(t)
                 break
             
         print('Episode: {}\tReward: {}'.format(ep, int(ep_reward)))
