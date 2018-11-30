@@ -8,7 +8,7 @@ def test():
     n_episodes = 3
     max_timesteps = 2000
     render = True
-    save_gif = True
+    save_gif = False
     
     filename = "TD3_{}_{}".format(env_name, random_seed)
     filename += '_solved'
