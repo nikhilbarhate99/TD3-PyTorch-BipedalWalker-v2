@@ -2,6 +2,10 @@
 
 PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) (TD3) for the BipedalWalker-v2 environment of OpenAI gym.
 
+- To test a preTrained network : run `test.py`
+
+- To train a new network : run `train.py`
+
 ## Dependencies
 ```
 Python 3.6
