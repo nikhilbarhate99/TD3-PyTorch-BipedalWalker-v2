@@ -11,6 +11,7 @@ PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) 
 Python 3.6
 PyTorch 0.4.1
 NumPy 1.15.3
+gym 0.10.8
 Pillow 5.3.0
 ```
 
