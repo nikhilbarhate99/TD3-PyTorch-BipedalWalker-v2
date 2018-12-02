@@ -7,6 +7,7 @@ PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) 
 - To train a new network : run `train.py`
 
 ## Dependencies
+Trained and tested on:
 ```
 Python 3.6
 PyTorch 0.4.1
