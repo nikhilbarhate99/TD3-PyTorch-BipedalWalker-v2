@@ -24,9 +24,8 @@ Solved in 800 episodes:
 
 ## References
 
-- **Code**: https://github.com/sfujim/TD3
+- Official [TD3 paper](https://arxiv.org/abs/1802.09477) and [code](https://github.com/sfujim/TD3)
 
-- **TD3 Paper**: https://arxiv.org/abs/1802.09477
 
-- **OpenAI Spinning up**: https://spinningup.openai.com/en/latest/algorithms/td3.html
+- [OpenAI SpinningUp in Deep RL](https://spinningup.openai.com/en/latest/algorithms/td3.html)
 
