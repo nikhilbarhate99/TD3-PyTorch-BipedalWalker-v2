@@ -19,6 +19,7 @@ Pillow 5.3.0
 ## Results
 
 Solved in 800 episodes:
+(The results are not very consistent)
 
 ![Alt Text](https://github.com/nikhilbarhate99/TD3-BipedalWalker-v2-PyTorch/blob/master/gif/GIF-ONE.gif)
 
