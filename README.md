@@ -18,11 +18,22 @@ Pillow 5.3.0
 
 ## Results
 
+### BipedalWalker-v2
+
+
 Solved in 800 episodes:
 
 (The results are not very consistent)
 
 ![Alt Text](https://github.com/nikhilbarhate99/TD3-BipedalWalker-v2-PyTorch/blob/master/gif/GIF-ONE.gif)
+
+
+### LunarLanderContinuous-v2
+
+
+Solved in 1500 episodes:
+
+![Alt Text](https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2/blob/master/gif/GIF-TWO.gif)
 
 ## References
 
