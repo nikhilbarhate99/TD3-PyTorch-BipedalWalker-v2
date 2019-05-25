@@ -38,22 +38,22 @@ class Critic(nn.Module):
         return q
     
 class TD3:
-    def __init__(self, state_dim, action_dim, max_action):
+    def __init__(self, lr, state_dim, action_dim, max_action):
         
         self.actor = Actor(state_dim, action_dim, max_action).to(device)
         self.actor_target = Actor(state_dim, action_dim, max_action).to(device)
         self.actor_target.load_state_dict(self.actor.state_dict())
-        self.actor_optimizer = optim.Adam(self.actor.parameters())
+        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=lr)
         
         self.critic_1 = Critic(state_dim, action_dim).to(device)
         self.critic_1_target = Critic(state_dim, action_dim).to(device)
         self.critic_1_target.load_state_dict(self.critic_1.state_dict())
-        self.critic_1_optimizer = optim.Adam(self.critic_1.parameters())
+        self.critic_1_optimizer = optim.Adam(self.critic_1.parameters(), lr=lr)
         
         self.critic_2 = Critic(state_dim, action_dim).to(device)
         self.critic_2_target = Critic(state_dim, action_dim).to(device)
         self.critic_2_target.load_state_dict(self.critic_2.state_dict())
-        self.critic_2_optimizer = optim.Adam(self.critic_2.parameters())
+        self.critic_2_optimizer = optim.Adam(self.critic_2.parameters(), lr=lr)
         
         self.max_action = max_action
     
