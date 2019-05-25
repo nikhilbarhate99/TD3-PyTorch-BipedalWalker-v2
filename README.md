@@ -13,6 +13,7 @@ Python 3.6
 PyTorch 0.4.1
 NumPy 1.15.3
 gym 0.10.8
+Roboschool 1.0.46
 Pillow 5.3.0
 ```
 
@@ -20,12 +21,12 @@ Pillow 5.3.0
 
 BipedalWalker-v2 (800 episodes)            |  LunarLanderContinuous-v2 (1500 episodes)
 :-------------------------:|:-------------------------:
-![](https://github.com/nikhilbarhate99/TD3-BipedalWalker-v2-PyTorch/blob/master/gif/GIF-ONE.gif)  |  ![](https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2/blob/master/gif/GIF-TWO.gif)
+![](https://github.com/nikhilbarhate99/TD3-BipedalWalker-v2-PyTorch/blob/master/gif/GIF-ONE.gif)  |  ![](https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2/blob/master/gif/GIF-TWO.gif)   |
 
 
-Walker2d-v1 Roboschool (1400 episodes)      |
+RoboschoolWalker2d-v1 (lr=0.002) (1400 episodes)      |
 :------------------------------------------:|
-![](https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2/blob/master/gif/GIF-THREE.gif)
+![](https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2/blob/master/gif/GIF-FOUR.gif)
 
 
 *The results are not consistent for BipedalWalker-v2 env
