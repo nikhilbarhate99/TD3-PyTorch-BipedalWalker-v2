@@ -12,10 +12,10 @@ class ReplayBuffer:
         self.buffer.append(transition)
     
     def sample(self, batch_size):
-      
+        # delete 1/5th of the buffer when full
         if self.size > self.max_size:
-          del self.buffer[0:(self.size-self.max_size)]
-          self.size = self.max_size
+        del self.buffer[0:int(self.size/5)]
+        self.size = len(self.buffer)
         
         indexes = np.random.randint(0, len(self.buffer), size=batch_size)
         state, action, reward, next_state, done = [], [], [], [], []
