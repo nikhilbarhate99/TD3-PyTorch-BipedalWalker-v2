@@ -11,6 +11,7 @@ def train():
     random_seed = 0
     gamma = 0.99                # discount for future rewards
     batch_size = 100            # num of transitions sampled from replay buffer
+    lr = 0.001
     exploration_noise = 0.1 
     polyak = 0.995              # target policy update parameter (1-tau)
     policy_noise = 0.2          # target policy smoothing noise
@@ -27,7 +28,7 @@ def train():
     action_dim = env.action_space.shape[0]
     max_action = float(env.action_space.high[0])
     
-    policy = TD3(state_dim, action_dim, max_action)
+    policy = TD3(lr, state_dim, action_dim, max_action)
     replay_buffer = ReplayBuffer()
     
     if random_seed:
