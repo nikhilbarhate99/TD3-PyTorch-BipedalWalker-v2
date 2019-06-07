@@ -2,14 +2,15 @@
 
 PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) (TD3) for the following environments:
 
-[Bipedal Walker v2](http://gym.openai.com/envs/BipedalWalker-v2/) 
+- [Bipedal Walker v2](http://gym.openai.com/envs/BipedalWalker-v2/) 
 
-[Lunar Lander Continuous v2](http://gym.openai.com/envs/LunarLanderContinuous-v2/) 
+- [Lunar Lander Continuous v2](http://gym.openai.com/envs/LunarLanderContinuous-v2/) 
 
-[Walker2d v1 (Roboschool)](https://github.com/openai/roboschool)
+- [Walker2d v1 (Roboschool)](https://github.com/openai/roboschool)
 
-[HalfCheetah v1 (Roboschool)](https://github.com/openai/roboschool)
+- [HalfCheetah v1 (Roboschool)](https://github.com/openai/roboschool)
 
+### Usage
 - To test a preTrained network : run `test.py`
 
 - To train a new network : run `train.py`
