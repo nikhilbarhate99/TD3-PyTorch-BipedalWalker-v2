@@ -1,6 +1,6 @@
 # TD3-BipedalWalker-v2-PyTorch
 
-PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) (TD3) for the following environments:
+PyTorch implementation of [Twin Delayed DDPG](https://arxiv.org/abs/1802.09477) (TD3) tested on the following environments:
 
 - [Bipedal Walker v2](http://gym.openai.com/envs/BipedalWalker-v2/) 
 
